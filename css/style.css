@@ -24,9 +24,10 @@ ul{
 }
 
 .container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
-    max-width: 1128px;
-    padding: 0 15px;
     margin: 0 auto;
     outline: 2px solid red;
 }
@@ -90,6 +91,7 @@ header{
 
 .address-list{
     display: flex;
+    gap: 40px;;
 }
 
 .header-list-item {
@@ -132,21 +134,27 @@ header{
 }
 
 /*-----------------hero----------------*/
-.hero-container {
+.hero{
     background-color: var(--color-brand);
-    padding: 188px 472px;
+}
+.hero-container {
     
+    padding: 188px 472px;
+    width: 100%;
 
 }
 
 .hero-title {
     font-weight: 700;
+    max-width: 496px;
+
     font-size: 56px;
     line-height: 1.07;
     /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
 .hero-btn {
