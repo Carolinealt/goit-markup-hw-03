@@ -139,15 +139,15 @@ header{
 }
 .hero-container {
     
-    padding: 188px 472px;
+    padding: 188px 331px;
     width: 100%;
-
+    
+    
 }
 
 .hero-title {
     font-weight: 700;
     max-width: 496px;
-
     font-size: 56px;
     line-height: 1.07;
     /* or 107% */
@@ -168,13 +168,29 @@ header{
     line-height: 1.5;
     /* identical to box height, or 150% */
     cursor: pointer;
-
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
 }
+
+
+/*---------------------------- advantages-container------------------ */
+
+.advantages{
+    padding: 120px 0 60px;
+}
+
+.advantages h2{
+    display: none;
+}
+
+
 
 .title-section{
     font-size: 36px;
@@ -186,7 +202,10 @@ header{
 
 }
 
-
+.adv-list{
+    display: flex;
+    gap: 8;
+}
 
 .part-title {
     font-weight: 500;
@@ -205,6 +224,21 @@ header{
     letter-spacing: 0.02em;
     color: var(--color-text);
 
+}
+/* ----------------------specialization---------------- */
+.specialization{
+    padding-top: 60px;
+
+}
+
+.list-specialization{
+    padding-top: 72px;
+    display: flex;
+    gap: 24px;
+}
+
+.spec-item{
+    width: calc((100% - 48px) / 3);
 }
 
 /*  ---------------team-----------------------  */
