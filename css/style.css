@@ -228,6 +228,7 @@ header{
 /* ----------------------specialization---------------- */
 .specialization{
     padding-top: 60px;
+    padding-bottom: 120px;
 
 }
 
@@ -244,7 +245,16 @@ header{
 /*  ---------------team-----------------------  */
 .team {
     background-color: #F4F4FD;
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.list-team{
+    display: flex;
+    padding-top: 72px;
+    width: calc((100%-72px)/4);
+    gap:24px;
 }
 
 .team-item{
