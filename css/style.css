@@ -1,7 +1,7 @@
 :root {
     --background--main-color: #FFFFFF;
     --color-brand: #2E2F42;
-    --color-text:  #434455;
+    --color-text: #434455;
     --color-logo: #4d5ae5;
 }
 
@@ -9,27 +9,37 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: var(--background--main-color);
-    
+
 }
 
-p, h1, h2, h3, h4, h5, h6{
+img {
+    display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-ul{
+ul {
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
 }
 
-.container{
+.container {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .link {
@@ -57,17 +67,17 @@ ul{
     color: var(--color-brand);
 }
 
-.sp-logo-foot{
+.sp-logo-foot {
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
 }
 
-header{
+header {
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.container-header{
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +85,7 @@ header{
 
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -89,9 +99,10 @@ header{
     gap: 40px;
 }
 
-.address-list{
+.address-list {
     display: flex;
-    gap: 40px;;
+    gap: 40px;
+    ;
 }
 
 .header-list-item {
@@ -110,15 +121,15 @@ header{
 .header-list-link:hover,
 .address-link:hover,
 .header-list-link:focus,
-.address-link:focus{
+.address-link:focus {
     color: #404bbf;
 }
 
-.header-address{
+.header-address {
     font-style: normal;
 }
 
-.address-link{
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -134,15 +145,17 @@ header{
 }
 
 /*-----------------hero----------------*/
-.hero{
+.hero {
     background-color: var(--color-brand);
 }
+
 .hero-container {
-    
+
     padding: 188px 331px;
     width: 100%;
-    
-    
+
+    text-align: center;
+
 }
 
 .hero-title {
@@ -171,7 +184,6 @@ header{
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
-    display: block;
 }
 
 .hero-btn:hover,
@@ -182,17 +194,17 @@ header{
 
 /*---------------------------- advantages-container------------------ */
 
-.advantages{
+.advantages {
     padding: 120px 0 60px;
 }
 
-.advantages h2{
+.advantages h2 {
     display: none;
 }
 
 
 
-.title-section{
+.title-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -202,7 +214,7 @@ header{
 
 }
 
-.adv-list{
+.adv-list {
     display: flex;
     gap: 8;
 }
@@ -225,20 +237,21 @@ header{
     color: var(--color-text);
 
 }
+
 /* ----------------------specialization---------------- */
-.specialization{
+.specialization {
     padding-top: 60px;
     padding-bottom: 120px;
 
 }
 
-.list-specialization{
+.list-specialization {
     padding-top: 72px;
     display: flex;
     gap: 24px;
 }
 
-.spec-item{
+.spec-item {
     width: calc((100% - 48px) / 3);
 }
 
@@ -250,15 +263,28 @@ header{
 }
 
 
-.list-team{
+.list-team {
     display: flex;
     padding-top: 72px;
-    width: calc((100%-72px)/4);
-    gap:24px;
+    gap: 24px;
 }
 
-.team-item{
+.team-item {
     background-color: #FFFFFF;
+    margin: 0 auto;
+    width: calc((100%-72px)/4);
+    text-align: center;
+
+}
+
+.part-title {
+    margin: 32px 0 8px;
+}
+
+/* -----------------------footer------ */
+
+.footer {
+    padding: 100px 0;
 }
 
 .text-foot {
@@ -268,6 +294,8 @@ header{
     /* or 150% */
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
+    margin-top: 16px;
 
 }
 
