@@ -98,7 +98,6 @@ header {
     color: var(--color-brand);
     display: flex;
     gap: 40px;
-    padding: 24px 0
 }
 
 .address-list {
@@ -118,6 +117,8 @@ header {
 
 .header-list-link {
     color: var(--color-brand);
+    padding: 24px 0;
+
 }
 
 .header-list-link:hover,
