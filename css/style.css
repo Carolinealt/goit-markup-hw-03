@@ -91,7 +91,6 @@ header {
     align-items: center;
     flex-grow: 1;
     gap: 76px;
-    padding: 24px 0;
 }
 
 .header-list {
@@ -99,6 +98,7 @@ header {
     color: var(--color-brand);
     display: flex;
     gap: 40px;
+    padding: 24px 0
 }
 
 .address-list {
@@ -267,6 +267,11 @@ header {
 .specialization {
     padding-top: 60px;
     padding-bottom: 120px;
+
+}
+
+.adv-list{
+    gap: 24px;
 
 }
 
